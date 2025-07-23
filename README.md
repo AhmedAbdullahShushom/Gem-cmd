@@ -1,4 +1,7 @@
 # Gem-cmd
-Python code to run Gemini ai response from the command prompt 
-Put the .bat and .py files in your admin folder or whatever terminal you're running your command prompt from. 
+Very simple minimalistic Python code to run Gemini AI response from the command prompt 
+Put the *.bat* and *.py* files in your admin folder or whatever terminal you're running your command prompt from. 
 In the Python file, line 12, put your own AI key in. 
+Install the necessary library by typing 
+ ``pip install google-generativeai``
+In your terminal or CMD.
