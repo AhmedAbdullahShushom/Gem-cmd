@@ -1,4 +1,4 @@
 @ECHO OFF
-python C:\\Users\\ahmed\\gemforcmd.py %* 
+python C:\\Users\\user\\gemforcmd.py %* 
 :: path to the .py file
 PAUSE
