@@ -8,7 +8,7 @@ if len(upt)<3:
    quit()
 
 import google.generativeai as genai
-geminikey = "AIzaSyAb2iArtd1avrBwlpOCuwmjYiVLTrFL3vc"
+geminikey = "your ai key"
 genai.configure(api_key=geminikey)
 model = genai.GenerativeModel('gemini-pro')
 
