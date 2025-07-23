@@ -10,7 +10,7 @@ if len(upt)<3:
 import google.generativeai as genai
 geminikey = "your ai key"
 genai.configure(api_key=geminikey)
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-2.0-flash-001')
 
 response = model.generate_content(upt)
 print(response.text)
